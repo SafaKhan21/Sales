@@ -14,7 +14,7 @@ interface AppContextType {
 const translations: Record<Language, Record<string, string>> = {
   en: {
     // Header
-    'app.title': 'Sales Management System',
+    'app.title': 'Sales System',
     'app.subtitle': 'Enterprise Sales & Invoicing Platform',
     
     // Navigation
@@ -160,7 +160,7 @@ const translations: Record<Language, Record<string, string>> = {
   },
   ar: {
     // Header
-    'app.title': 'نظام إدارة المبيعات',
+    'app.title': 'نظام المبيعات',
     'app.subtitle': 'منصة المبيعات والفواتير المؤسسية',
     
     // Navigation
