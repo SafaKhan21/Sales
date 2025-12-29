@@ -92,11 +92,11 @@ const AppContent: React.FC = () => {
 {/* Logo & Title */}
 <div className="flex items-center gap-3">
   {/* Logo */}
-  <img
-    src={theme === 'light' ? "../public/assets/logo-light.png" : "../public/assets/logo-dark.png"}
-    alt="Sales Management Logo"
-    className={theme === 'light' ? "h-15 w-auto" : "h-50 w-auto"} // bigger height for night logo
-  />
+<img
+  src={theme === 'light' ? "/assets/logo-light.png" : "/assets/logo-dark.png"}
+  alt="Sales Management Logo"
+  className={theme === 'light' ? "h-15 w-auto" : "h-50 w-auto"}
+/>
 
   {/* Title */}
   <div>
