@@ -95,7 +95,7 @@ const AppContent: React.FC = () => {
 <img
   src={theme === 'light' ? "/assets/logo-light.png" : "/assets/logo-dark.png"}
   alt="Sales Management Logo"
-  className={theme === 'light' ? "h-15 w-auto" : "h-50 w-auto"}
+  className={theme === 'light' ? "h-13 w-auto" : "h-40 w-auto"}
 />
 
   {/* Title */}
