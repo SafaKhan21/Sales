@@ -100,9 +100,9 @@ const AppContent: React.FC = () => {
 
   {/* Title */}
   <div>
-    <h1 className="text-lg md:text-xl font-semibold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+    <h2 className="text-lg md:text-xl font-semibold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
       {t('app.title')}
-    </h1>
+    </h2>
     <p className="text-xs text-muted-foreground hidden md:block">
       {t('app.subtitle')}
     </p>
